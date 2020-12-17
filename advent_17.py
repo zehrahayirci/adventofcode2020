@@ -91,7 +91,6 @@ cube[16,15,12, 12] = 1
 
 for i in range(6):
     print(i)
-    cube = ozan_counter(cube)
-    #cube = isActive(cube)
+    cube = isActive(cube)
 
 print(np.sum(cube))
