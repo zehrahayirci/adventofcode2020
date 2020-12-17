@@ -24,11 +24,9 @@ for i in range(20):
     numbers_2 = list(map(int, numbers_2))
     tup=(numbers_1,numbers_2)
     rules_dict[i]=tup
-    #print(rules_dict)
 
 ticket = Lines[22].split(",")
 ticket = list(map(int, ticket))
-
 
 summ=0
 trueLines = []
